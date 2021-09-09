@@ -56,6 +56,9 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
 
+    // Test dependencies
+    testImplementation "org.hamcrest:hamcrest-all:$hamcrestVersion"
+
     // Dependencies for local unit tests
     testImplementation "junit:junit:$junitVersion"
 
